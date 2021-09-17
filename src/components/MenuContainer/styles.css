@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.menu-itemsSb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item-burgers {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 0;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.menu-item-bebidas {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.menu-items-bag-MenuC {
+  margin: 7px;
+  display: flex;
+  flex-direction: row;
+  max-width: 680px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.menu-item-bebidas img {
+  width: 60px;
+  height: 120px;
+}
+
+.titulo {
+  display: flex;
+  font-family: "Press Start 2P", cursive;
+}
+
+.titulo h1 {
+  margin: 10px 0;
+}
+
+@media (max-width: 353px) {
+  .menu-items-bag-MenuC {
+    justify-content: center;
+  }
+}

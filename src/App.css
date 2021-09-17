@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #003605,
+    #045b01,
+    #02830d,
+    #02ac1e,
+    #00d712
+  );
+  font-family: Montserrat, sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(39, 37, 37, 0.575);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.capaTitulo h1 {
+  font-family: "Press Start 2P", cursive;
+}
+
+.bag {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 8px;
+}
+
+.centerBag {
+  cursor: pointer;
+  display: flex;
+  position: static;
+  flex-direction: column;
+  width: 80px;
+  color: white;
+}
+
+.centerBag:hover {
+  filter: brightness(1.2);
+}
+
+.centerBag:active {
+  filter: brightness(1.6);
+}
+
+.centerBag--p {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  margin: 0 auto;
+  position: relative;
+  font-size: 14px;
+  background-color: rgb(0, 0, 0);
+}
+
+.centerBag--c {
+  position: relative;
+  top: -37px;
+  left: 31px;
+  border-radius: 100%;
+  font-size: 10px;
+  margin: -3px;
+  width: 23px;
+  background-color: #231e39;
+}
+
+.finallySale {
+  border-radius: 0 0 5px 5px;
+  font-size: 15px;
+  background-color: rgb(43, 160, 8);
+}
+
+.sale-ok {
+  background-image: linear-gradient(
+    to right top,
+    #003605,
+    #045b01,
+    #02830d,
+    #02ac1e,
+    #00d712
+  );
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale-ok h1 {
+  margin: 0;
+}

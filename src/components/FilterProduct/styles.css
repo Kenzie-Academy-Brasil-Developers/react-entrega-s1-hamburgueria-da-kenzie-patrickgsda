@@ -1,0 +1,37 @@
+.menu-container {
+  display: flex;
+  margin: 20px 5px 20px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input {
+  border: 0;
+  border-radius: 5px;
+  width: 185px;
+  padding: 15px;
+}
+
+input:hover {
+  filter: brightness(1.2);
+}
+
+.button-filter {
+  cursor: pointer;
+  background-color: rgb(8, 142, 160);
+  border: 0;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 110px;
+  padding: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.button-filter:hover {
+  filter: brightness(1.5);
+}
+
+.button-filter:active {
+  filter: brightness(4);
+}
